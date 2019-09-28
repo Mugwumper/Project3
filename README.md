@@ -1,29 +1,6 @@
-# Create React Express App
+#Something to Talk About
 
-## About This Boilerplate
+This app will take a collection of people’s birthdays and create a concise document of things that happened on each of the birthdays. It would be used for planning family reunions to generate a document that includes the collection of reunion attendees and the events and details of life at the time of their birthdays.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+Give a calendar date and this app will detail what life was like at that point in time.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
-
-## Starting the app locally
-
-Start by installing front and backend dependencies. While in this directory, run the following command:
-
-```
-npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
